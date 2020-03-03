@@ -6,14 +6,26 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-TTimer	KEYWORD1	TTimer
+TTimerList	KEYWORD1	TTimerList
+TCounterDown  KEYWORD1	TCounterDown
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
+TCounterDown KEYWORD2
 Start	KEYWORD2
 Stop	KEYWORD2
-
+Reset KEYWORD2
+isActive KEYWORD2
+isEmpty KEYWORD2
+setInterval KEYWORD2
+Tick KEYWORD2
+TTimerList KEYWORD2
+Add KEYWORD2
+AddSeconds KEYWORD2
+setNewInterval KEYWORD2
+Delete KEYWORD2
+getCount KEYWORD2
 #######################################
 # Constants (LITERAL1)
 #######################################
